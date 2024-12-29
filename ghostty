@@ -1,0 +1,72 @@
+# Font
+freetype-load-flags            = no-hinting
+freetype-load-flags            = no-force-autohint
+
+#font-family                    = Symbols Nerd Font Mono
+#font-family                    = Iosevka Custom
+font-family = Berkeley Mono
+font-style = Regular
+
+
+font-feature                   = calt
+font-feature                   = dlig
+font-feature                   = ss05
+
+font-thicken                   = true
+font-size                      = 20
+window-inherit-font-size       = true
+
+
+# Look and Feel
+adjust-cursor-thickness        = 3
+adjust-underline-position      = 3
+bold-is-bright                 = true
+link-url                       = true
+macos-titlebar-proxy-icon      = hidden
+macos-titlebar-style           = tabs
+mouse-hide-while-typing        = true
+macos-titlebar-proxy-icon      = hidden
+
+adjust-underline-position = 40%
+adjust-underline-thickness = -60%
+
+cursor-style = block
+cursor-style-blink = false
+
+shell-integration = fish
+shell-integration-features = no-cursor
+
+# Key bindings
+keybind                        = ctrl+h=goto_split:left
+keybind                        = ctrl+j=goto_split:bottom
+keybind                        = ctrl+k=goto_split:top
+keybind                        = ctrl+l=goto_split:right
+keybind                        = ctrl+shift+h=new_split:left
+keybind                        = ctrl+shift+j=new_split:down
+keybind                        = ctrl+shift+k=new_split:up
+keybind                        = ctrl+shift+l=new_split:right
+keybind                        = super+shift+enter=new_split:auto
+keybind                        = super+shift+i=inspector:toggle
+keybind                        = super+shift+r=reload_config
+keybind                        = super+t=new_tab
+keybind = ctrl+d=new_split:right
+keybind = ctrl+z=close_surface 
+
+window-width = 120
+window-height = 45
+window-padding-x = 4
+
+confirm-close-surface = false
+clipboard-paste-protection = false
+unfocused-split-opacity = 1.0
+
+theme = iTerm2 Default
+background = #111111
+foreground = #f4f4ff
+cursor-color = #ff0078
+
+selection-background = 1d3c3b
+selection-foreground = eeeeee
+
+palette = 4=#3D52E2
+palette = 12=#344CFF
