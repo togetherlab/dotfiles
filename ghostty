@@ -57,3 +57,87 @@ selection-foreground = eeeeee
 
 palette = 4=#3D52E2
 palette = 12=#344CFF
+
+here is the second
+# Font
+freetype-load-flags            = no-hinting
+freetype-load-flags            = no-force-autohint
+
+#font-family                    = Symbols Nerd Font Mono
+#font-family                    = Iosevka Custom
+font-family = Berkeley Mono
+font-style = Regular
+
+
+font-feature                   = calt
+font-feature                   = dlig
+font-feature                   = ss05
+
+font-thicken                   = true
+font-size                      = 20
+window-inherit-font-size       = true
+
+mouse-hide-while-typing        = true
+
+adjust-underline-position = 40%
+adjust-underline-thickness = -60%
+
+# Key bindings
+keybind                        = ctrl+h=goto_split:left
+keybind                        = ctrl+j=goto_split:bottom
+keybind                        = ctrl+k=goto_split:top
+keybind                        = ctrl+l=goto_split:right
+keybind                        = ctrl+shift+h=new_split:left
+keybind                        = ctrl+shift+j=new_split:down
+keybind                        = ctrl+shift+k=new_split:up
+keybind                        = ctrl+shift+l=new_split:right
+keybind                        = super+shift+enter=new_split:auto
+keybind                        = super+shift+i=inspector:toggle
+keybind                        = super+shift+r=reload_config
+keybind                        = super+t=new_tab
+keybind = ctrl+d=new_split:right
+keybind = ctrl+z=close_surface 
+
+fullscreen = true
+theme = catppuccin-frappe
+bold-is-bright = true
+background = #101010
+
+cursor-color = #acb1ab
+cursor-style = block_hollow
+cursor-style-blink = false
+palette = 0=#101010
+palette = 1=#f5a191
+palette = 2=#90b99f
+palette = 3=#e6b99d
+palette = 4=#aca1cf
+palette = 5=#e29eca
+palette = 6=#ea83a5
+palette = 7=#a0a0a0
+palette = 8=#7e7e7e
+palette = 9=#ff8080
+palette = 10=#99ffe4
+palette = 11=#ffc799
+palette = 12=#b9aeda
+palette = 13=#ecaad6
+palette = 14=#f591b2
+palette = 15=#ffffff
+palette = 44=#0BE8E8
+font-size = 22
+font-thicken = true
+shell-integration = detect
+shell-integration-features = title
+custom-shader-animation = true
+macos-non-native-fullscreen = true
+macos-icon = custom-style
+
+#cursor-color =  #40E0D0
+cursor-opacity = 1
+title = " "
+
+
+selection-background = 1d3c3b
+selection-foreground = eeeeee
+
+palette = 4=#3D52E2
+palette = 12=#344CFF
