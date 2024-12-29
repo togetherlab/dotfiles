@@ -16,25 +16,10 @@ font-thicken                   = true
 font-size                      = 20
 window-inherit-font-size       = true
 
-
-# Look and Feel
-adjust-cursor-thickness        = 3
-adjust-underline-position      = 3
-bold-is-bright                 = true
-link-url                       = true
-macos-titlebar-proxy-icon      = hidden
-macos-titlebar-style           = tabs
 mouse-hide-while-typing        = true
-macos-titlebar-proxy-icon      = hidden
 
 adjust-underline-position = 40%
 adjust-underline-thickness = -60%
-
-cursor-style = block
-cursor-style-blink = false
-
-shell-integration = fish
-shell-integration-features = no-cursor
 
 # Key bindings
 keybind                        = ctrl+h=goto_split:left
@@ -52,10 +37,6 @@ keybind                        = super+t=new_tab
 keybind = ctrl+d=new_split:right
 keybind = ctrl+z=close_surface 
 
-window-width = 120
-window-height = 45
-window-padding-x = 4
-
 confirm-close-surface = false
 clipboard-paste-protection = false
 unfocused-split-opacity = 1.0
@@ -63,7 +44,13 @@ unfocused-split-opacity = 1.0
 theme = iTerm2 Default
 background = #111111
 foreground = #f4f4ff
-cursor-color = #ff0078
+cursor-color =  #40E0D0
+cursor-opacity = 1
+title = " "
+cursor-style = block_hollow
+cursor-style-blink = false
+shell-integration = fish
+
 
 selection-background = 1d3c3b
 selection-foreground = eeeeee
