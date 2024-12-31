@@ -58,7 +58,10 @@ selection-foreground = eeeeee
 palette = 4=#3D52E2
 palette = 12=#344CFF
 
-here is the second
+
+#here is the second
+
+
 # Font
 freetype-load-flags            = no-hinting
 freetype-load-flags            = no-force-autohint
@@ -91,17 +94,19 @@ keybind                        = ctrl+shift+h=new_split:left
 keybind                        = ctrl+shift+j=new_split:down
 keybind                        = ctrl+shift+k=new_split:up
 keybind                        = ctrl+shift+l=new_split:right
-keybind                        = super+shift+enter=new_split:auto
-keybind                        = super+shift+i=inspector:toggle
-keybind                        = super+shift+r=reload_config
+keybind                        = super+enter=new_split:auto
+keybind                        = super+i=inspector:toggle
+keybind                        = super+r=reload_config
 keybind                        = super+t=new_tab
 keybind = ctrl+d=new_split:right
 keybind = ctrl+z=close_surface 
 
+
 fullscreen = true
-theme = catppuccin-frappe
+theme = vesper
 bold-is-bright = true
 background = #101010
+
 
 cursor-color = #acb1ab
 cursor-style = block_hollow
@@ -129,7 +134,8 @@ shell-integration = detect
 shell-integration-features = title
 custom-shader-animation = true
 macos-non-native-fullscreen = true
-macos-icon = custom-style
+macos-titlebar-style = hidden
+
 
 #cursor-color =  #40E0D0
 cursor-opacity = 1
